@@ -12,7 +12,7 @@ rf=IntVar()
 cp=StringVar()
 cd=StringVar()
 cm=StringVar()
-conn_obj=sqlite3.connect("registration.db")
+conn_obj=sqlite3.connect("registration2.db")
 cur_obj=conn_obj.cursor()
 cur_obj.execute( """ create table std13( name string,fathersname string, mobilenum integer ,
                  email string, male integer ,female integer ,python string,django string,
